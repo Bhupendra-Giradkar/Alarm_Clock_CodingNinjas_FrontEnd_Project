@@ -49,5 +49,7 @@ This is a simple alarm colck containing all the features metioned above.I had cr
 
 ## DEMO
 https://bhupendra-giradkar.github.io/Alarm_Clock_CodingNinjas_FrontEnd_Project/
-<img width="953" alt="Capture" src="https://github.com/Bhupendra-Giradkar/Alarm_Clock_CodingNinjas_FrontEnd_Project/assets/149242441/bb0da9a7-9660-4755-a948-e37a661da7e3">
+<img width="936" alt="Capture" src="https://github.com/Bhupendra-Giradkar/Alarm_Clock_CodingNinjas_FrontEnd_Project/assets/149242441/3a29aab4-08a3-46f9-acbb-c4687717b589">
 
+## Author
+Bhupendra Giradkar
