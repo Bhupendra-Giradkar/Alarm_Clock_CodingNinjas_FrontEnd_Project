@@ -31,17 +31,17 @@ const setAlarm = () => {
   let ampm = document.querySelector("#setAlarm-ampm").value;
   // if input box is empty.
   if (hours === "" || mins === "" || secs === "" || ampm === "") {
-    alert("plz enter the Time!!");
+    alert("please enter the Time!!");
     return;
   }
   //  if user put invalid time then show alert
   if (ampm === "AM" && hours > 12) {
     alert(`it shoud be PM.
-    plz check and enter again!!`);
+    please check and enter again!!`);
     return;
   } else if (ampm === "PM" && hours <= 12) {
     alert(`it shoud be AM.
-    plz check and enter again!!`);
+    please check and enter again!!`);
     return;
   }
 
@@ -72,7 +72,7 @@ const setAlarm = () => {
   ) {
    
 
-    alert("plz enter a valid Time");
+    alert("please enter a valid Time");
     // console.log(typeof hours, mins, secs, ampm);
     return;
   }
@@ -88,7 +88,7 @@ const setAlarm = () => {
     setime: null,
   };
 
-  //addalarm to the alarmList
+  //add alarm to the alarmList
 
   alarmList.push(Alarm);
 
@@ -110,6 +110,7 @@ const setAlarm = () => {
   );
   // console.log(">>>", alarmtime);
   // getting the value of hours,mins and sec in currhours,currmins and currsecs.
+  
   const currhours = currtime.getHours();
   const currmins = currtime.getMinutes();
   const currsecs = currtime.getSeconds();
